@@ -1,8 +1,12 @@
 import React from "react";
+import ShimmerButton from "@/components/ui/shimmer-button";
 
 function Aboutbox() {
   return (
-    <section className="dark:bg-gray-100 dark:text-gray-800  mt-10">
+    <section
+      id="about"
+      className="dark:bg-gray-100 dark:text-gray-800  mt-10 w-full"
+    >
       <div className="container max-w-xl p-6 py-12 mx-auto space-y-20 lg:px-8 lg:max-w-7xl">
         <div>
           <h2 className="text-[2rem] font-bold tracking-tight text-center sm:text-[2.5rem] dark:text-gray-900">
@@ -17,13 +21,18 @@ function Aboutbox() {
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">
               Empowering Your Financial Growth
             </h3>
-            <p className="mt-3 text-lg dark:text-gray-600">
+            <p className="my-3 text-lg dark:text-gray-600">
               KSA & Associates is a trusted Chartered Accountancy partnership
               firm established in 2013. With a deep commitment to excellence, we
               specialize in delivering integrated services spanning Audit &
               Assurance, Tax Compliance, Corporate Advisory, and Financial
               Consultancy.
             </p>
+            <ShimmerButton className="" background="#5046e6">
+              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
+                Learn more
+              </span>
+            </ShimmerButton>
             <div className="mt-12 space-y-12">
               <div className="flex">
                 <div className="flex-shrink-0">
