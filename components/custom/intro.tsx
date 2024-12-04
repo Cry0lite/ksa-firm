@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import ShinyButton from "@/components/ui/shiny-button";
+
 import BoxReveal from "@/components/ui/box-reveal";
 import ShimmerButton from "@/components/ui/shimmer-button";
 
