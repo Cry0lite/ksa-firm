@@ -147,16 +147,16 @@ export function Clients() {
   return (
     <>
       <div className="flex  flex-col justify-center items-center w-full">
-        <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+        <BoxReveal boxColor={"#153b55"} duration={0.5}>
           <p className="text-[2.5rem] text-center leading-10 font-bold">
             Trusted Partners Across Industries
-            <span className="text-[#5046e6]">.</span>
+            <span className="text-[#153b55]">.</span>
           </p>
         </BoxReveal>
-        <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+        <BoxReveal boxColor={"#153b55"} duration={0.5}>
           <h2 className="mt-[1.2rem] text-[1rem]">
             – See Our Client
-            <span className="text-[#5046e6]"> Success Stories</span>
+            <span className="text-[#153b55]"> Success Stories</span>
           </h2>
         </BoxReveal>
       </div>

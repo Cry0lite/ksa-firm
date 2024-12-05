@@ -1,7 +1,12 @@
+'use client'
+
 import React from "react";
 import ShimmerButton from "@/components/ui/shimmer-button";
+ 
+import { useRouter } from 'next/navigation';
 
 function Aboutbox() {
+  const { push } = useRouter();
   return (
     <section
       id="about"
@@ -28,7 +33,7 @@ function Aboutbox() {
               Assurance, Tax Compliance, Corporate Advisory, and Financial
               Consultancy.
             </p>
-            <ShimmerButton className="" background="#5046e6">
+            <ShimmerButton onClick={()=>{push('/about');}}  background="#153b55">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
                 Learn more
               </span>

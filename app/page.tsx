@@ -94,7 +94,7 @@ export default function Home() {
                     <a
                       target="blank"
                       href="info@ksaandassociates.com"
-                      className="text-[#5046e6] text-sm ml-3"
+                      className="text-[#153b55] text-sm ml-3"
                     >
                       <small className="block">Mail</small>
                       <strong>info@ksaandassociates.com</strong>
@@ -158,26 +158,26 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Name"
-                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#5046e6]"
+                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#153b55]"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#5046e6]"
+                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#153b55]"
               />
               <input
                 type="text"
                 placeholder="Subject"
-                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#5046e6]"
+                className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#153b55]"
               />
               <textarea
                 placeholder="Message"
                 rows={6}
-                className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#5046e6]"
+                className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#153b55]"
               ></textarea>
               <button
                 type="button"
-                className="text-white bg-[#5046e6] hover:bg-indigo-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
+                className="text-white bg-[#153b55] hover:bg-indigo-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
               >
                 Send
               </button>
