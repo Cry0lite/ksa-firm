@@ -18,7 +18,7 @@ export function ValuesCircle() {
 
   return (
     <div
-      className="relative flex h-screen w-full mt-20 flex-col items-center justify-center overflow-hidden rounded-lg  bg-background"
+      className="relative flex min-h-screen w-full mt-20 flex-col items-center justify-center overflow-hidden rounded-lg  bg-background"
       onClick={() => setActiveCircle(null)} // Resume rotation when clicking outside
     >
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-black">
@@ -27,7 +27,7 @@ export function ValuesCircle() {
 
       {/* Inner Circles */}
       <OrbitingCircles
-        className="size-[40px] border-none bg-transparent"
+        className="size-[40px] border-none bg-transparent transition-all"
         duration={activeCircle === "whatsapp" ? 0 : 20} // Stop rotation when active
         delay={20}
         radius={100}
