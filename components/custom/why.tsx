@@ -41,7 +41,6 @@ function WhySection() {
           alt=""
           className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
           src="/team-1.png"
-          alt=""
         />
       </div>
     </div>
