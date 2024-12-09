@@ -85,7 +85,7 @@ export function Navbar() {
   return (
     <div
       className={cn(
-        "sticky top-0 z-10 flex justify-center items-center transition-colors duration-200",
+        "sticky top-0 z-30 flex justify-center items-center transition-colors duration-200",
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       )}
     >
