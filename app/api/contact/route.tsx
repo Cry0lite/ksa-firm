@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server'
-const nodemailer = require('nodemailer');
+import nodemailer from 'nodemailer';
 
 // Handles POST requests to /api
 
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     console.log("dealing with request")
     const formData = await request.formData()
     const name = formData.get('name')
-    const email = formData.get('email')
+    const email = formData.get('email') as string | undefined;
     const message = formData.get('message')
 
 
