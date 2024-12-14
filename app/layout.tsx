@@ -1,6 +1,9 @@
+'use client'
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { useState } from "react";
 
 import { cn } from "@/lib/utils";
 import DotPattern from "@/components/ui/dot-pattern";
@@ -17,16 +20,43 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "KSA Associates",
-  description: "Your trusted Chartered Accountants",
-};
+// export const metadata: Metadata = {
+//   title: "KSA Associates",
+//   description: "Your trusted Chartered Accountants",
+// };
+
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  async function handleSubmit(event:React.ChangeEvent<HTMLFormElement>) {
+
+    event.preventDefault();
+    const formData = new FormData(event.target)
+    try {
+
+        const response = await fetch('/api/contact', {
+            method: 'post',
+            body: formData,
+        });
+
+        if (!response.ok) {
+            console.log("falling over")
+            throw new Error(`response status: ${response.status}`);
+        }
+        const responseData = await response.json();
+        console.log(responseData['message'])
+
+        alert('Message successfully sent');
+    } catch (err) {
+        console.error(err);
+        alert("Error, please try resubmitting the form");
+    }
+};
+
   return (
     <html lang="en">
       <body
@@ -93,7 +123,18 @@ export default function RootLayout({
           />
           Go to nextjs.org →
         </a> */}
-          <div className="my-6">
+        <div className="bg-red-200">
+
+       
+                {/* <div>
+          <h2 className="text-[2rem] font-bold tracking-tight text-center sm:text-[2.5rem] dark:text-gray-900">
+            About us
+          </h2>
+          <p className="max-w-3xl mx-auto mt-2 text-xl text-center dark:text-gray-600">
+            Who We Are, and Our Approach.
+          </p>
+        </div> */}
+          <div className="">
             <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
               <div>
                 <h1 className="text-[2.5rem] text-center font-bold">
@@ -185,14 +226,18 @@ export default function RootLayout({
                 </div>
               </div>
 
-              <form className="ml-auo space-y-4">
+              <form onSubmit={handleSubmit} className="ml-auo space-y-4">
                 <input
                   type="text"
+                  name="name"
                   placeholder="Name"
+    
                   className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#153b55]"
                 />
                 <input
                   type="email"
+                  name="email"
+                 
                   placeholder="Email"
                   className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#153b55]"
                 />
@@ -203,17 +248,20 @@ export default function RootLayout({
                 />
                 <textarea
                   placeholder="Message"
+                  name="message"
+            
                   rows={6}
                   className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#153b55]"
                 ></textarea>
                 <button
-                  type="button"
+                 type="submit"
                   className="text-white bg-[#153b55] hover:bg-indigo-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
                 >
                   Send
                 </button>
               </form>
             </div>
+          </div>
           </div>
         </footer>
       </body>

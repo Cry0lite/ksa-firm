@@ -2,13 +2,13 @@ import React from "react";
 
 function ServicesBox() {
   return (
-    <div id="services">
+    <div  id="services">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       />
 
-      <section id="new-features" className="py-8 bg-white sm:py-10 lg:py-16">
+      <section id="new-features" className="py-8 bg-white  sm:py-10 lg:py-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-[2rem] font-bold tracking-tight text-center sm:text-[2.5rem] dark:text-gray-900">
