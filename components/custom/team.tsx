@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function TeamSection() {
   return (
-    <section id="our-team" className="bg-background py-28">
-      <div className="container justify-center gap-8 items-center flex flex-col mx-auto px-4">
+    <section id="our-team" className="bg-background w-full flex justify-center py-28">
+      <div className="container justify-center gap-8 items-center w-11/12 flex flex-col  px-4">
         <div className="w-5/6 md:w-4/5">
           <h2 className="text-[2.5rem] text-center leading-10 font-bold">
             Meet the Experts Behind Our Success

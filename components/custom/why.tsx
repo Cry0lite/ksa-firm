@@ -19,7 +19,7 @@ export const WhySection = () => {
             with strategic insights, seamless compliance, and personalized
             support, ensuring your success in an ever-evolving landscape.
           </p>
-          <div className="mt-6">
+          <div className="mt-6 w-full flex justify-center  items-center lg:justify-start">
             <RippleButton className="">
               <a href="#contact" className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-[#153b55] from-white to-slate-900/10 lg:text-base">
                 Get in touch
