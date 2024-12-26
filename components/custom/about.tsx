@@ -134,7 +134,7 @@ function Aboutbox() {
           </div>
           <div aria-hidden="true" className="mt-10 lg:mt-0">
             <img
-              src="https://unsplash.com/blog/content/images/size/w2000/max/1200/1-6Y06QkNo24P2utyPkLfQZg.jpeg"
+              src="/core-group.jpg"
               alt=""
               className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
             />

@@ -1,5 +1,5 @@
 import { IntroBox } from "@/components/custom/intro";
-import { Clients } from "@/components/custom/clients";
+//import { Clients } from "@/components/custom/clients";
 import Image from "next/image";
 import Aboutbox from "@/components/custom/about";
 import ServicesBox from "@/components/custom/services";
@@ -10,10 +10,10 @@ export default function Home() {
       <main className="flex flex-col row-start-2 justify-start w-full md:w-5/6 overflow-hidden items-center sm:items-start">
         <IntroBox />
 
-        <Clients />
+        {/* <Clients /> */}
 
         <Aboutbox />
-
+        
         <ServicesBox />
       </main>
     </div>

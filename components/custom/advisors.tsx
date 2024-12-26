@@ -54,7 +54,7 @@ function AdvisorsSection() {
                 <div className="h-full ">
                   {" "}
                   <img
-                    src="/amit.png"
+                    src="/amit.jpg"
                     alt="#_"
                     className=" bg-gray-200 shadow-xl rounded-lg shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center"
                   />{" "}

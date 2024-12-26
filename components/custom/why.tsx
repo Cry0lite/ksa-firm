@@ -6,7 +6,7 @@ export const WhySection = () => {
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 rounded-md z-0 w-full h-full bg-[#153b55] lg:w-3/4" />
       </div>
-      <div className="relative grid items-center gap-12 lg:grid-cols-2">
+      <div className="relative grid items-center gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center text-center lg:text-left">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Why Choose Us?
@@ -29,8 +29,8 @@ export const WhySection = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            className="object-contain w-full max-w-lg rounded-lg shadow-lg"
-            src="/team-1.png"
+            className="object-contain w-full max-w-2xl rounded-lg shadow-lg"
+            src="/team-1.jpg"
             alt="Team working together"
           />
         </div>

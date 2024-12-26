@@ -6,7 +6,7 @@ function TeamSection() {
     <section id="our-team" className="bg-background w-full flex justify-center py-28">
       <div className="container justify-center gap-8 items-center w-11/12 flex flex-col  px-4">
         <div className="w-5/6 md:w-4/5">
-          <h2 className="text-[2.5rem] text-center leading-10 font-bold">
+          <h2 className="text-[2rem] text-center leading-10 font-bold">
             Meet the Experts Behind Our Success
           </h2>
 
@@ -20,7 +20,7 @@ function TeamSection() {
         <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src="/sneha.png"
+              src="/sneha2.jpg"
               alt="Team Member 1"
               className="w-full rounded-full mb-4"
               width={100}
@@ -32,19 +32,19 @@ function TeamSection() {
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src="/adnan.png"
+              src="/adnan.jpg"
               alt="Team Member 2"
               className="w-full rounded-full mb-4"
               width={100}
               height={100}
             />
-            <h3 className="text-xl font-semibold mb-2">CA Adnan Ginwala</h3>
+            <h3 className="text-xl font-semibold mb-2">CS Adnan Ginwala</h3>
             <p className="text-gray-700">Regulatory Compliances</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src="/ashish.png"
+              src="/ashish.jpg"
               alt="Team Member 3"
               className="w-full rounded-full mb-4"
               width={100}
@@ -53,6 +53,8 @@ function TeamSection() {
             <h3 className="text-xl font-semibold mb-2">CA Ashish Gandhi</h3>
             <p className="text-gray-700">Indirect Taxation and Audit</p>
           </div>
+
+          
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
@@ -65,22 +67,10 @@ function TeamSection() {
             <h3 className="text-xl font-semibold mb-2">CA Sarvesh Bhattad</h3>
             <p className="text-gray-700">Due Diligence and Audit</p>
           </div>
-
+          
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src="/rahul.png"
-              alt="Team Member 5"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
-            <h3 className="text-xl font-semibold mb-2">CA Rahul Mundada</h3>
-            <p className="text-gray-700">Corporate Services</p>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/akshay.png"
+              src="/akshay.jpg"
               alt="Team Member 6"
               className="w-full rounded-full mb-4"
               width={100}
@@ -89,6 +79,35 @@ function TeamSection() {
             <h3 className="text-xl font-semibold mb-2">CA Akshay Jain</h3>
             <p className="text-gray-700">Audit</p>
           </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
+            <Image
+              src=""
+              alt="Vedika"
+              className="w-full rounded-full mb-4"
+              width={100}
+              height={100}
+            />
+            <h3 className="text-xl font-semibold mb-2">Vedika</h3>
+            <p className="text-gray-700">TBA</p>
+          </div>
+          </div>
+
+          <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div></div>
+          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
+            <Image
+              src=""
+              alt="Pratiksha"
+              className="w-full rounded-full mb-4"
+              width={100}
+              height={100}
+            />
+            <h3 className="text-xl font-semibold mb-2">Pratiksha</h3>
+            <p className="text-gray-700">TBA</p>
+          </div>
+
+         
 
           {/* <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image

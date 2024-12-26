@@ -45,16 +45,21 @@ export async function IntroBox() {
 
         <BoxReveal boxColor={"#153b55"} duration={0.5}>
           <div className="flex justify-start items-center space-x-4">
+          <a className="transition-all" href="#contact">
             <ShimmerButton className="" background="#153b55">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
-                Connect with us
+                  Connect with us 
               </span>
             </ShimmerButton>
+          </a>
+
+          <a className="transition-all" href="#services"> 
             <ShimmerButton className="">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
-                Explore our services
+                  Explore our services      
               </span>
             </ShimmerButton>
+          </a>
           </div>
         </BoxReveal>
       </div>
@@ -62,7 +67,8 @@ export async function IntroBox() {
         className="cursor-pointer flex-col hidden lg:block z-0 items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
         gradientColor={"#D9D9D955"}
       >
-        <img src="https://images.unsplash.com/photo-1522071901873-411886a10004?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+        {/* <img src="https://images.unsplash.com/photo-1522071901873-411886a10004?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img> */}
+        <img src="/group2.jpg"></img>
       </MagicCard>
     </div>
   );
