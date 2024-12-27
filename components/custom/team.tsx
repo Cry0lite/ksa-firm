@@ -82,14 +82,14 @@ function TeamSection() {
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src=""
+              src="/vedika.jpeg"
               alt="Vedika"
               className="w-full rounded-full mb-4"
               width={100}
               height={100}
             />
             <h3 className="text-xl font-semibold mb-2">Vedika</h3>
-            <p className="text-gray-700">TBA</p>
+            <p className="text-gray-700">Direct Tax</p>
           </div>
           </div>
 
@@ -97,14 +97,14 @@ function TeamSection() {
           <div></div>
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
             <Image
-              src=""
+              src="/pratiksha.jpeg"
               alt="Pratiksha"
               className="w-full rounded-full mb-4"
               width={100}
               height={100}
             />
             <h3 className="text-xl font-semibold mb-2">Pratiksha</h3>
-            <p className="text-gray-700">TBA</p>
+            <p className="text-gray-700">Direct Tax</p>
           </div>
 
          

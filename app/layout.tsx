@@ -173,6 +173,32 @@ export default function RootLayout({
                       </a>
                     </li>
                     
+                    <br/>
+
+
+                    <li className="flex items-center">
+                      <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <svg 
+                          xmlns="http://www.w3.org/2000/svg" 
+                         width="20px"
+                         height="20px"
+                         fill="#007bff"
+                          viewBox="0 0 24 24">
+                            <path 
+                             d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z"
+                             />
+                        </svg>  
+                      </div>
+                      <a
+                        target="blank"
+                        href="info@ksafirm.in"
+                        className="text-[#153b55] text-sm ml-3"
+                      >
+                        <small className="block">Phone</small>
+                        <strong>+91 82378 57853</strong>
+                      </a>
+                    </li>
+
                   </ul>
                 </div>
                 <div className="mt-12">
