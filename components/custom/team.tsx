@@ -19,37 +19,43 @@ function TeamSection() {
 
         <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/sneha2.jpg"
-              alt="Team Member 1"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+            <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+                  src="/sneha2.jpg"
+                    alt="Team Member 1"
+                className="w-full h-full object-cover"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">CA Sneha Halder</h3>
             <p className="text-gray-700">Direct Taxation</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/adnan.jpg"
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+               src="/adnan.jpg"
               alt="Team Member 2"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-cover object-top"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">CS Adnan Ginwala</h3>
             <p className="text-gray-700">Regulatory Compliances</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/ashish.jpg"
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+                src="/ashish.jpg"
               alt="Team Member 3"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-cover object-left-top"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">CA Ashish Gandhi</h3>
             <p className="text-gray-700">Indirect Taxation and Audit</p>
           </div>
@@ -57,37 +63,43 @@ function TeamSection() {
           
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
               src="/sarvesh.png"
               alt="Team Member 4"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-cover object-top"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">CA Sarvesh Bhattad</h3>
             <p className="text-gray-700">Due Diligence and Audit</p>
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/akshay.jpg"
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+                src="/akshay.jpg"
               alt="Team Member 6"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-cover object-top"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">CA Akshay Jain</h3>
             <p className="text-gray-700">Audit</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/vedika.jpeg"
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+            src="/vedika.jpeg"
               alt="Vedika"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-cover object-top"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">Vedika</h3>
             <p className="text-gray-700">Direct Tax</p>
           </div>
@@ -96,13 +108,15 @@ function TeamSection() {
           <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div></div>
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="/pratiksha.jpeg"
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+                src="/pratiksha.jpeg"
               alt="Pratiksha"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
+                className="w-full h-full object-top object-cover"
+                width={100}
+                height={100}
+              />
+            </div>
             <h3 className="text-xl font-semibold mb-2">Pratiksha</h3>
             <p className="text-gray-700">Direct Tax</p>
           </div>

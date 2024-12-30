@@ -6,8 +6,8 @@ import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
 
-    const username = process.env.NEXT_PUBLIC_EMAIL_USERNAME;
-    const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
+    const username = process.env.NEXT_SMTP_USERNAME;
+    const password = process.env.NEXT_SMTP_PASSWORD;
     const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
     const senderEmail = process.env.NEXT_PUBLIC_SENDER_EMAIL
 
@@ -21,8 +21,8 @@ export async function POST(request: Request) {
 
     // create transporter object
     const transporter = nodemailer.createTransport({
-        host: "smtp.sendgrid.net",
-        port: 587,
+        host: "smtp.ionos.com",
+        port: 465,
         tls: {
             ciphers: "SSLv3",
             rejectUnauthorized: false,

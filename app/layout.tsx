@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { useState } from "react";
+import { useToast } from "@/hooks/use-toast"
 
 import { cn } from "@/lib/utils";
 import DotPattern from "@/components/ui/dot-pattern";
@@ -32,12 +33,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
+  const { toast } = useToast()
+
   async function handleSubmit(event:React.ChangeEvent<HTMLFormElement>) {
 
     event.preventDefault();
     const formData = new FormData(event.target)
     try {
-
         const response = await fetch('/api/contact', {
             method: 'post',
             body: formData,
@@ -49,11 +51,17 @@ export default function RootLayout({
         }
         const responseData = await response.json();
         console.log(responseData['message'])
-
-        alert('Message successfully sent');
+        toast({
+          title: "Uh oh! Something went wrong.",
+          description: "There was a problem with your request.",
+        })
     } catch (err) {
         console.error(err);
-        alert("Error, please try resubmitting the form");
+        toast({
+          variant: "destructive",
+          title: "Uh oh! Something went wrong.",
+          description: "Please try resubmitting the form",
+        })
     }
 };
 
