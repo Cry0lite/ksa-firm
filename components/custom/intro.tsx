@@ -27,22 +27,6 @@ export async function IntroBox() {
             </BoxReveal>
           </div>
         </div>
-
-        {/* <BoxReveal boxColor={"#153b55"} duration={0.5}>
-        <div className="mt-6">
-          <p>
-            -&gt; 20+ free and open-source animated components built with
-            <span className="font-semibold text-[#153b55]"> React</span>,
-            <span className="font-semibold text-[#153b55]"> Typescript</span>,
-            <span className="font-semibold text-[#153b55]"> Tailwind CSS</span>,
-            and
-            <span className="font-semibold text-[#153b55]"> Framer Motion</span>
-            . <br />
-            -&gt; 100% open-source, and customizable. <br />
-          </p>
-        </div>
-      </BoxReveal> */}
-
         <BoxReveal boxColor={"#153b55"} duration={0.5}>
           <div className="flex justify-start items-center space-x-4">
           <a className="transition-all" href="#contact">
@@ -67,7 +51,6 @@ export async function IntroBox() {
         className="cursor-pointer flex-col hidden lg:block z-0 items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
         gradientColor={"#D9D9D955"}
       >
-        {/* <img src="https://images.unsplash.com/photo-1522071901873-411886a10004?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img> */}
         <img src="/group2.jpg"></img>
       </MagicCard>
     </div>

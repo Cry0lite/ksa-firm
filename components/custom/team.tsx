@@ -120,32 +120,6 @@ function TeamSection() {
             <h3 className="text-xl font-semibold mb-2">Pratiksha</h3>
             <p className="text-gray-700">Direct Tax</p>
           </div>
-
-         
-
-          {/* <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="https://spacema-dev.com/elevate/assets/images/team/7.jpg"
-              alt="Team Member 7"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
-            <h3 className="text-xl font-semibold mb-2">Sarah Johnson</h3>
-            <p className="text-gray-700">Role: Content Writer</p>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <Image
-              src="https://spacema-dev.com/elevate/assets/images/team/8.jpg"
-              alt="Team Member 8"
-              className="w-full rounded-full mb-4"
-              width={100}
-              height={100}
-            />
-            <h3 className="text-xl font-semibold mb-2">David Wilson</h3>
-            <p className="text-gray-700">Role: Project Manager</p>
-          </div> */}
         </div>
       </div>
     </section>
