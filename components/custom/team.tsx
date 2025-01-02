@@ -93,23 +93,6 @@ function TeamSection() {
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
           <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
               <Image
-            src="/vedika.jpeg"
-              alt="Vedika"
-                className="w-full h-full object-cover object-top"
-                width={100}
-                height={100}
-              />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Vedika</h3>
-            <p className="text-gray-700">Direct Tax</p>
-          </div>
-          </div>
-
-          <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div></div>
-          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
-              <Image
                 src="/pratiksha.jpeg"
               alt="Pratiksha"
                 className="w-full h-full object-top object-cover"
@@ -117,10 +100,24 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Pratiksha</h3>
+            <h3 className="text-xl font-semibold mb-2">CA Pratiksha Chandak</h3>
             <p className="text-gray-700">Direct Tax</p>
           </div>
-        </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
+          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+              <Image
+            src="/vedika.jpeg"
+              alt="Vedika"
+                className="w-full h-full object-cover object-top"
+                width={100}
+                height={100}
+              />
+            </div>
+            <h3 className="text-xl font-semibold mb-2">CA Vedika Maniyar</h3>
+            <p className="text-gray-700">Direct Tax</p>
+          </div>
+          </div>
       </div>
     </section>
   );

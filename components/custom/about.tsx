@@ -18,7 +18,7 @@ function Aboutbox() {
             About us
           </h2>
           <p className="max-w-3xl mx-auto mt-2 text-xl text-center dark:text-gray-600">
-            Who We Are, and Our Approach.
+            Who we are and our approach.
           </p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
