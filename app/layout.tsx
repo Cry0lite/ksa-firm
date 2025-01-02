@@ -1,9 +1,7 @@
 'use client'
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { useState } from "react";
 import { useToast } from "@/hooks/use-toast"
 
 import { cn } from "@/lib/utils";
