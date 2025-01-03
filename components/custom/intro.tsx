@@ -4,7 +4,7 @@ import { MagicCard } from "@/components/ui/magic-card";
 
 export async function IntroBox() {
   return (
-    <div className="flex flex-col min-h-[500px] lg:flex-row justify-start lg:justify-between items-start gap-8 w-full">
+    <div className="flex flex-col min-h-[500px] lg:flex-row justify-start lg:justify-between items-center gap-8 w-full">
       <div className="size-full max-w-xl  items-center justify-center  space-y-10 overflow-hidden pt-8">
         <div className="flex flex-col text-center md:text-left justify-start items-center gap-4">
           <BoxReveal boxColor={"#153b55"} duration={0.5}>
@@ -48,10 +48,10 @@ export async function IntroBox() {
         </BoxReveal>
       </div>
       <MagicCard
-        className="cursor-pointer flex-col hidden lg:block z-0 items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
+        className="cursor-pointer max-w-4xl flex-col hidden lg:block z-0 items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
         gradientColor={"#D9D9D955"}
       >
-        <img src="/group2.jpg"></img>
+        <img className="mx-auto" src="/group2.jpg"></img>
       </MagicCard>
     </div>
   );

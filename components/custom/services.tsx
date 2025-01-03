@@ -2,7 +2,7 @@ import React from "react";
 
 function ServicesBox() {
   return (
-    <div id="services">
+    <div id="services" className="w-full flex justify-center items-center">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
