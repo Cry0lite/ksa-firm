@@ -12,14 +12,14 @@ function TeamSection() {
 
           <p className="mt-[1.2rem] text-[1rem] text-center">
             Our multidisciplinary team comprises professionals specializing in
-            statutory audits, taxation, regulatory compliance, and financial
+            statutory audits, tax, regulatory compliance, and financial
             reporting.
           </p>
         </div>
 
-        <div className="grid w-5/6 lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid w-5/6 justify-center lg:w-4/6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+            <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
                   src="/sneha2.jpg"
                     alt="Team Member 1"
@@ -28,12 +28,12 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Sneha Halder</h3>
-            <p className="text-gray-700">Direct Taxation</p>
+            <h3 className="text-lg font-semibold mb-2">CA Sneha Halder</h3>
+            <p className="text-gray-700 text-sm">Direct Tax</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
                src="/adnan.jpg"
               alt="Team Member 2"
@@ -42,12 +42,12 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CS Adnan Ginwala</h3>
-            <p className="text-gray-700">Regulatory Compliances</p>
+            <h3 className="text-lg font-semibold mb-2">CS Adnan Ginwala</h3>
+            <p className="text-gray-700 text-sm">Regulatory Compliances</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
                 src="/ashish.jpg"
               alt="Team Member 3"
@@ -56,14 +56,14 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Ashish Gandhi</h3>
-            <p className="text-gray-700">Indirect Taxation and Audit</p>
+            <h3 className="text-lg font-semibold mb-2">CA Ashish Gandhi</h3>
+            <p className="text-gray-700 text-sm">Indirect Tax and Audit</p>
           </div>
 
           
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
               src="/sarvesh.png"
               alt="Team Member 4"
@@ -72,12 +72,12 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Sarvesh Bhattad</h3>
-            <p className="text-gray-700">Due Diligence and Audit</p>
+            <h3 className="text-lg font-semibold mb-2">CA Sarvesh Bhattad</h3>
+            <p className="text-gray-700 text-sm">Due Diligence and Audit</p>
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
                 src="/akshay.jpg"
               alt="Team Member 6"
@@ -86,12 +86,12 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Akshay Jain</h3>
-            <p className="text-gray-700">Audit</p>
+            <h3 className="text-lg font-semibold mb-2">CA Akshay Jain</h3>
+            <p className="text-gray-700 text-sm">Audit</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
                 src="/pratiksha.jpeg"
               alt="Pratiksha"
@@ -100,12 +100,12 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Pratiksha Chandak</h3>
-            <p className="text-gray-700">Direct Tax</p>
+            <h3 className="text-lg font-semibold mb-2">CA Pratiksha Chandak</h3>
+            <p className="text-gray-700 text-sm">Direct Tax</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-          <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
               <Image
             src="/vedika.jpeg"
               alt="Vedika"
@@ -114,8 +114,8 @@ function TeamSection() {
                 height={100}
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">CA Vedika Maniyar</h3>
-            <p className="text-gray-700">Direct Tax</p>
+            <h3 className="text-lg font-semibold mb-2">CA Vedika Maniyar</h3>
+            <p className="text-gray-700 text-sm">Direct Tax</p>
           </div>
           </div>
       </div>
