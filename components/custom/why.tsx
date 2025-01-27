@@ -1,4 +1,6 @@
 import RippleButton from "@/components/ui/ripple-button";
+import Image from "next/image";
+import Team1 from '../../public/team-1.jpg'
 
 export const WhySection = () => {
   return (
@@ -28,9 +30,9 @@ export const WhySection = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             className="object-contain w-full max-w-2xl rounded-lg shadow-lg"
-            src="/team-1.jpg"
+            src={Team1}
             alt="Team working together"
           />
         </div>

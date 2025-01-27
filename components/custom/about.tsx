@@ -4,6 +4,8 @@ import React from "react";
 import ShimmerButton from "@/components/ui/shimmer-button";
  
 import { useRouter } from 'next/navigation';
+import Image from "next/image";
+import CoreGroup from '../../public/core-group.jpg'
 
 function Aboutbox() {
   const { push } = useRouter();
@@ -133,9 +135,9 @@ function Aboutbox() {
             </div>
           </div>
           <div aria-hidden="true" className="mt-10 lg:mt-0">
-            <img
-              src="/core-group.jpg"
-              alt=""
+            <Image
+              src={CoreGroup}
+              alt="core-team"
               className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
             />
           </div>

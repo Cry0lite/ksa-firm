@@ -3,6 +3,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { useToast } from "@/hooks/use-toast"
+import { Toaster } from "@/components/ui/toaster";
 
 import { cn } from "@/lib/utils";
 import DotPattern from "@/components/ui/dot-pattern";
@@ -50,13 +51,14 @@ export default function RootLayout({
         const responseData = await response.json();
         console.log(responseData['message'])
         toast({
-          title: "Uh oh! Something went wrong.",
-          description: "There was a problem with your request.",
+          title: "Success!",
+          description: "Your message has been sent successfully",
+          className:"border border-2 bg-green-50 border-green-300"
         })
     } catch (err) {
         console.error(err);
         toast({
-          variant: "destructive",
+          className:"border border-2 bg-red-50 border-red-300",
           title: "Uh oh! Something went wrong.",
           description: "Please try resubmitting the form",
         })
@@ -194,6 +196,7 @@ export default function RootLayout({
               </div>
 
               <form onSubmit={handleSubmit} className="ml-auo space-y-4">
+                <Toaster/>
                 <input
                   type="text"
                   name="name"

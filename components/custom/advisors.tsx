@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import Kethaan from '../../public/kethaan.png'
+import Amit from '../../public/amit.jpg'
 
 function AdvisorsSection() {
   return (
@@ -30,9 +33,9 @@ function AdvisorsSection() {
                   </p>
                 </div>
                 <div className="h-full md:order-first">
-                  <img
-                    src="/kethaan.png"
-                    alt="#_"
+                  <Image
+                    src={Kethaan}
+                    alt="Kethaan"
                     className=" bg-gray-200 shadow-xl rounded-lg  shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center"
                   />{" "}
                 </div>
@@ -53,9 +56,9 @@ function AdvisorsSection() {
                 </div>
                 <div className="h-full ">
                   {" "}
-                  <img
-                    src="/amit.jpg"
-                    alt="#_"
+                  <Image
+                    src={Amit}
+                    alt="Amit"
                     className=" bg-gray-200 shadow-xl rounded-lg shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center"
                   />{" "}
                 </div>

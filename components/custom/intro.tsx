@@ -1,6 +1,8 @@
 import BoxReveal from "@/components/ui/box-reveal";
 import ShimmerButton from "@/components/ui/shimmer-button";
 import { MagicCard } from "@/components/ui/magic-card";
+import Image from "next/image";
+import Group2 from '../../public/group2.jpg'
 
 export async function IntroBox() {
   return (
@@ -51,7 +53,7 @@ export async function IntroBox() {
         className="cursor-pointer max-w-4xl flex-col hidden lg:block z-0 items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
         gradientColor={"#D9D9D955"}
       >
-        <img className="mx-auto" src="/group2.jpg"></img>
+        <Image className="mx-auto" src={Group2} alt="team-picture"/>
       </MagicCard>
     </div>
   );
